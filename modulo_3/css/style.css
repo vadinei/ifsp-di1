@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.background-logotipo-gradient {
+  background: linear-gradient(to bottom, #d97706, #7a2a2a);
+  color: white;
+}
+
+.carousel-item {
+  background: linear-gradient(to bottom, #fff);
+  height: 250px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M4.854 0.146a.5.5 0 0 1 0 .708L2.707 3.5l2.147 2.146a.5.5 0 0 1-.708.708L1.5 3.854a.5.5 0 0 1 0-.708L4.146 0.146a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M3.146 0.146a.5.5 0 0 1 .708 0L6.5 2.793a.5.5 0 0 1 0 .707L3.854 6.146a.5.5 0 0 1-.708-.707L5.293 3.5 3.146 1.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.cor1 {
+  background-color: #ffcc88;
+}
+
+.cor2 {
+  background-color: #ccff88;
+}
+
+.cor3 {
+  background-color: #bb88cc;
+}
