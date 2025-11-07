@@ -4,8 +4,25 @@ body {
 }
 
 .background-logotipo-gradient {
-  background: linear-gradient(to bottom, #d97706, #7a2a2a);
+  background: linear-gradient(to bottom, #7a2a2a, #d97706);
   color: white;
+}
+
+.menu-font {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #d97706, #7a2a2a);
+  color: #ddd;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .carousel-item {
@@ -25,16 +42,4 @@ body {
 .carousel-control-next-icon {
   width: 36px;
   height: 36px;
-}
-
-.cor1 {
-  background-color: #ffcc88;
-}
-
-.cor2 {
-  background-color: #ccff88;
-}
-
-.cor3 {
-  background-color: #bb88cc;
 }
