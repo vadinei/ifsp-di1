@@ -3,9 +3,25 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .background-logotipo-gradient {
   background: linear-gradient(to bottom, #7a2a2a, #d97706);
   color: white;
+}
+
+.contato-perfil {
+  display: block;
+  margin: 0 auto;
+  width: 134px;
+  height: 134px;
 }
 
 .menu-font {
