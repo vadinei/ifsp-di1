@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.background-logotipo-gradient {
+  background: linear-gradient(to bottom, #7a2a2a, #d97706);
+  color: white;
+}
+
+.contato-perfil {
+  display: block;
+  margin: 0 auto;
+  width: 134px;
+  height: 134px;
+}
+
+.menu-font {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #d97706, #7a2a2a);
+  color: #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.carousel-item {
+  background: linear-gradient(to bottom, #fff);
+  height: 400px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M4.854 7.854a.5.5 0 0 1-.708 0L1.5 4.707a.5.5 0 0 1 0-.707L4.146 1.146a.5.5 0 0 1 .708.708L2.707 4l2.147 2.146a.5.5 0 0 1 0 .708z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M3.146 0.146a.5.5 0 0 1 .708 0L6.854 3.5a.5.5 0 0 1 0 .707L3.854 7.854a.5.5 0 0 1-.708-.707L5.293 4 3.146 1.854a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 36px;
+  height: 36px;
+}

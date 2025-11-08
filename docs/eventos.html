@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Território Quilombola | Tururu/CE</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark background-logotipo-gradient"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logotipo.png" alt="Logotipo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#menuNav"
+          aria-controls="menuNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link link text-white menu-font" href="index.html"
+                ><i class="bi bi-house-door-fill"></i> Início</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white menu-font" href="historia.html"
+                ><i class="bi bi-clock-history"></i> História</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white menu-font" href="eventos.html"
+                ><i class="bi bi-calendar-event"></i> Eventos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link text-white menu-font" href="contato.html"
+                ><i class="bi bi-envelope-fill"></i> Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container my-4">
+      <section id="eventos">
+        <h2 class="section-title text-center">
+          <strong>Eventos</strong>
+        </h2>
+        <p class="lead text-center">
+          Festa da Consciência Negra e Religiosas, Concursos Culturais e
+          Atividades Educativas nas Escolas Quilombolas.
+        </p>
+      </section>
+
+      <section id="detalhe_eventos">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card p-3">
+              <img
+                src="img/concurso_beleza_negra_candidatas_2024.jpg"
+                alt="Concurso Beleza Negra"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  <strong>Concurso Beleza Negra</strong>
+                </h5>
+                <p class="card-text">Candidatas de 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="card p-3">
+              <h4><strong>Calendário de 2025:</strong></h4>
+              <ul>
+                <li>
+                  Junho - Festejos de Santo Antônio (Conceição dos Caetanos);
+                </li>
+                <li>Setembro - Ações ao Dia da Independência do Brasil;</li>
+                <li>Outubro - Festejos de São Francisco (Água Preta);</li>
+                <li>Novembro - Ações ao Dia da Consciência Negra.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <p class="mb-0">
+          <strong
+            >Instituto Federal de São Paulo (IFSP) | Campus Capivari</strong
+          >
+        </p>
+        <p class="mb-0">Esp. Desenvolv. de Sistemas Web e Aplicativos Móveis</p>
+        <p class="mb-0">Disciplina: Desenvolvimento para Internet I</p>
+        <p class="mb-0">Professora: Adriana Beloni</p>
+        <p class="mb-0">Aluno: José Vádinei Soares</p>
+      </div>
+    </footer>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script>
+      $(".carousel").carousel({
+        interval: 5000, // Troca imagens a cada 5 segundos
+        wrap: true, // Reiniciar ao chegar no final
+      });
+    </script>
+  </body>
+</html>
