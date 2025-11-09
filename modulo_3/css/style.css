@@ -17,6 +17,10 @@ a:hover {
   color: white;
 }
 
+.texto-break {
+  word-wrap: break-word;
+}
+
 .contato-perfil {
   display: block;
   margin: 0 auto;
