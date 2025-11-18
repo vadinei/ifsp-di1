@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vadinei.github.io/ifsp-di1/modulo_3/sitemap.xml
